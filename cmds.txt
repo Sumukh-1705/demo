@@ -1,0 +1,7 @@
+git clone <repository-URL>
+git status
+git add <filename>       # Add specific file  
+git add .                # Add all changes in the directory
+git commit -m "Your commit message"
+git push origin main     # Push to the main branch
+git pull origin main
