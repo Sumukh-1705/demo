@@ -5,3 +5,8 @@ git add .                # Add all changes in the directory
 git commit -m "Your commit message"
 git push origin main     # Push to the main branch
 git pull origin main
+git fetch origin
+git checkout <branch-name>     # Switch branches  
+git checkout <file>            # Restore file from last commit
+git reset <file>               # Unstage a file  
+git reset --hard <commit-id>   # Reset to a specific commit (destructive)
